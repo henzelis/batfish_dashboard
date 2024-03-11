@@ -1,5 +1,7 @@
-import dash_core_components as dcc
-import dash_html_components as html
+# import dash_core_components as dcc
+from dash import dcc
+# import dash_html_components as html
+from dash import html
 from dash.dependencies import Input, Output
 from app import app
 from layouts import main_page_layout
@@ -20,4 +22,4 @@ external_js = ["https://code.jquery.com/jquery-3.2.1.min.js"]
 
 
 if __name__ == '__main__':
-    app.run_server(host="0.0.0.0", port=8050)
+    app.run_server(host="192.168.106.1", port=8050)
