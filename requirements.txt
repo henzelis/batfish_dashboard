@@ -32,7 +32,7 @@ ordered-set
 pandas 
 passlib 
 plotly 
-pybatfish
+pybatfish==2023.12.16.1270
 python-dateutil 
 pytz
 PyYAML
