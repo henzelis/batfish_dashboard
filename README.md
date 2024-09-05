@@ -15,8 +15,6 @@ Fixed version issues with python 3.12.2
 - git clone https://github.com/henzelis/batfish_dashboard.git
 - cd batfish_dashboard/
 - Edit ip address of thee host "vi index.py"
-  - if __name__ == '__main__':
-    app.run_server(host="192.168.109.153", port=8050)
 - docker build -t batfish_dashboard . && docker run -p 8050:8050 batfish_dashboard
 
 If running locally:
