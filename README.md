@@ -12,7 +12,7 @@ Fixed version issues with python 3.12.2
     - docker pull batfish/allinone
     - docker run --name batfish -v batfish-data:/data -p 8888:8888 -p 9997:9997 -p 9996:9996 batfish/allinone
     
-- git clone https://github.com/Marphlap/batfish_dashboard.git
+- git clone https://github.com/henzelis/batfish_dashboard.git
 - cd batfish_dashboard/
 
 - docker build -t batfish_dashboard . && docker run -p 8050:8050 batfish_dashboard
